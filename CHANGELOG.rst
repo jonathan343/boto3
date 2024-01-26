@@ -2,6 +2,16 @@
 CHANGELOG
 =========
 
+1.34.26
+=======
+
+* api-change:``storagegateway``: [``botocore``] Add DeprecationDate and SoftwareVersion to response of ListGateways.
+* api-change:``outposts``: [``botocore``] DeviceSerialNumber parameter is now optional in StartConnection API
+* api-change:``ecs``: [``botocore``] Documentation updates for Amazon ECS.
+* api-change:``ec2``: [``botocore``] Introduced a new clientToken request parameter on CreateNetworkAcl and CreateRouteTable APIs. The clientToken parameter allows idempotent operations on the APIs.
+* api-change:``rds``: [``botocore``] This release adds support for Aurora Limitless Database.
+
+
 1.34.25
 =======
 
