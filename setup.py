@@ -25,7 +25,7 @@ def get_version():
 
 
 setup(
-    name='boto3',
+    name='boto3-infra-testing',
     version=get_version(),
     description='The AWS SDK for Python',
     long_description=open('README.rst').read(),
